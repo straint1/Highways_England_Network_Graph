@@ -10,8 +10,8 @@ The network graph is free to use, however I ask that any further publications th
 
 ### SRN_region_graph.csv
 The file SRN_region_graph.csv contains the graph data, where each row describes a highway section (a directed edge).
-StartLat, StartLon, StartX, StartY describe the position (X is Easting and Y is Northing) of the start junction (node) and similarly EndLat/Lon/X/Y describes the end junction position. StartCluster and EndCluster is the node id for the start and end nodes. 
-The other columns provide extra detail, like the road and junction name, the straighline distance of each highway section, and the Highways England region where that highway section lies. 
+The columns StartLat, StartLon, StartX, and StartY describe the position (X is Easting and Y is Northing) of the start junction (node) and similarly EndLat/Lon/X/Y describes the end junction position. StartCluster and EndCluster are respectively the start and end node id.
+The other columns provide extra detail, like the highway and junction name, the straighline distance of each highway section, and the Highways England region where that highway section lies. 
 
 ### srn_graphs.pdf
-A visualisation of the graph, in our paper we were concerned with Highway Traffic Officers and thus 'Outstations' where officers begin and end patrols are highlighted. However, this information is not included here. 
+A visualisation of the graph. In our paper, we were concerned with Highway Traffic Officers and therefore 'Outstations', where officers begin and end patrols, are highlighted. However, this information is not included here. 
